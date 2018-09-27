@@ -64,7 +64,7 @@ ENTER THE NO OF ROWS5
 1 2 3 
 1 2 
 1 
-
+"""
 
 a=str(input("ENTER THE STRING"))
 l=len(a)
@@ -77,4 +77,3 @@ for i in a:
         exit()
 print('yes')
 
-"""
