@@ -64,7 +64,7 @@ ENTER THE NO OF ROWS5
 1 2 3 
 1 2 
 1 
-"""
+
 
 a=str(input("ENTER THE STRING"))
 l=len(a)
@@ -76,4 +76,55 @@ for i in a:
         print('no')
         exit()
 print('yes')
+
+
+x=int(input())
+for i in range(1,x+1):
+    for i in range(1,x):
+        if(i%3!=0):
+            print("*\t*")
+        else:
+            print("*****")
+            break
+print("*   *")
+print("*   *")
+
+input 5
+
+output:
+
+*	*
+*	*
+*****
+*	*
+*	*
+*****
+*	*
+*	*
+*****
+*	*
+*	*
+*****
+*	*
+*	*
+*****
+*   *
+*   *
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
