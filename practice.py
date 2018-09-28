@@ -111,7 +111,37 @@ output:
 *   *
 *   *
 
+
+#Alphabetical order
+x=str(input("enter the string"))
+y=sorted(x)
+for i in y:
+    print(i,end=" ")
+
+#class concept in python
+class myclass:
+    def __init__(self,fname,lname):
+        self.fname=fname
+        self.lname=lname
+
+    def myfunction(self):
+        print("hello myself " + self.fname + self.lname )
+
+p=myclass("lucky","verma")
+
+p.myfunction()
+
 """
+
+
+
+
+
+
+
+
+
+
 
 
 
