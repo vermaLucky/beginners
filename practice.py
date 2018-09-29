@@ -179,3 +179,18 @@ else:
     print("NO")
 
 """
+#LCM AND HCF OF A NUMBER
+
+a,b = input("enter the numbers").split(" ")
+a= int(a);
+b = int(b);
+t1 = a
+t2 = b
+while t2 != 0:
+    temp = t2;
+    t2 = t1%t2;
+    t1 = temp;
+hcf = t1;
+lcm = (a*b)/hcf;
+print("HCF =",hcf);
+print("LCM =",lcm);
