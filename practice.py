@@ -131,25 +131,45 @@ p=myclass("lucky","verma")
 
 p.myfunction()
 
+#frequency of character in a string
+def frequency(string):
+    d={}
+    for i in string:
+        key=d.keys()
+        if i in key:
+            d[i]+=1
+        else:
+            d[i]=1
+
+    return d
+
+frequency(input("enter the string"))
+#fibonacci series
+
+#METHOD 1
+
+def fib(n):
+    if(n==1 or n==2):
+        return  1
+    return (fib(n-1)+fib(n-2))
+for i  in range(1,11):
+    print(fib(i))
+
+#fibonacci series
+
+#METHOD 2
+
+
+def fib(n):
+    a,b=1,1
+    for i in range(n-1):
+        a,b=b,a+b
+    return a
+
+for i in range(1,11):
+    print(fib(i))
+
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
