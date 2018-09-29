@@ -169,12 +169,13 @@ def fib(n):
 for i in range(1,11):
     print(fib(i))
 
+
+
+#sorting a string
+a,b=input().split(" ")
+if sorted(a)==sorted(b):
+    print("YES")
+else:
+    print("NO")
+
 """
-
-
-
-
-
-
-
-

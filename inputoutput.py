@@ -1,10 +1,10 @@
-#begine with python
+"""#begine with python
 
 print("Welcome to python")
 
 
 #variable in python
-"""In python variable declaration is not necessary"""
+#In python variable declaration is not necessary
 
 x=90   #here x is a int type
 x="String"  #here x is a String type
@@ -19,8 +19,7 @@ print(x+y)
 
 
 #casting of a variable
-"""we can cast a variable particularly in one data type
-example """
+we can cast a variable particularly in one data type example
 
 x=int(1.58)
 y=float(1)
@@ -63,3 +62,7 @@ print(factorial)
 #taking input from user
 x=input("enter name")
 print(x);
+
+
+
+"""
