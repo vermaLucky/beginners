@@ -178,7 +178,7 @@ if sorted(a)==sorted(b):
 else:
     print("NO")
 
-"""
+
 #LCM AND HCF OF A NUMBER
 
 a,b = input("enter the numbers").split(" ")
@@ -194,3 +194,22 @@ hcf = t1;
 lcm = (a*b)/hcf;
 print("HCF =",hcf);
 print("LCM =",lcm);
+"""
+#cipher text
+
+a=str(input("enter string"))
+k=int(input("enter the key"))
+l=len(a)
+r=" "
+for i in range(l):
+    if(a[i].isupper()):
+        print(chr((ord(a[i])+k-65)%26 +65),end=" ")
+    elif(a[i].islower()):
+        print(chr((ord(a[i])+k-97)%26 +97),end=" ")
+    elif(a[i].isdigit()):
+        print(chr((ord(a[i])+k-49)%10 +48),end=" ")
+    else:
+        continue
+
+
+

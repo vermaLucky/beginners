@@ -65,4 +65,8 @@ print(x);
 
 
 
+a=str(input("a"))
+k=int(input("k"))
+print(chr((ord(a)+k-48)%9 +48),end=" ")
 """
+print(ord("9"))
