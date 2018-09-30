@@ -207,7 +207,7 @@ for i in range(l):
     elif(a[i].islower()):
         print(chr((ord(a[i])+k-97)%26 +97),end=" ")
     elif(a[i].isdigit()):
-        print(chr((ord(a[i])+k-49)%10 +48),end=" ")
+        print(chr((ord(a[i])+k-48)%10 +48),end=" ")
     else:
         continue
 
